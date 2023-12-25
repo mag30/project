@@ -23,20 +23,20 @@ export default class Header extends Component {
                                 height="40"
                                 width="40"
                                 className="d-inline-block align-top"
-                                alt="Logo"
+alt="Logo"
                             />
-                         Привет,Наташка!
+Привет,Наташка!
 
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                
-                                <Nav.Link href="/">Главная страница</Nav.Link>
 
+                                <Nav.Link href="/">Главная страница</Nav.Link>
+                                
                             </Nav>
 
-                        </Navbar.Collapse>
+                                                    </Navbar.Collapse>
                     </Container>
                 </Navbar>
                  <Router>
@@ -45,7 +45,7 @@ export default class Header extends Component {
                     </Routes>
                 </Router>
             </>
-           
+
 
         )
     }
