@@ -3,7 +3,8 @@ import { Button, Container, Navbar, NavbarBrand, NavbarCollapse, Nav, Form, Form
 import logo from './logo.png';
 
 import{BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
-import Home from '../Pages/Home';
+import Reg
+from '../pages/Reg';
 import Cards from '../pages/Cards';
 import Quiz from '../pages/Quiz';
 import Theory from '../pages/Theory';
@@ -23,29 +24,29 @@ export default class Header extends Component {
                                 height="40"
                                 width="40"
                                 className="d-inline-block align-top"
-                                alt="Logo"
+alt="Logo"
                             />
-                         Привет,Наташка!
+Привет,Наташка!
 
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                
-                                <Nav.Link href="/">Главная страница</Nav.Link>
 
+                                <Nav.Link href="/">Главная страница</Nav.Link>
+                                
                             </Nav>
 
-                        </Navbar.Collapse>
+                                                    </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                 <Router>
-                <Routes>
-                        <Route path='/' element={<Home/>}/>
-                    </Routes>
+                <Router>
+                    <Routes>
+                        <Route path='/' element={<Reg/>}/>
+                        </Routes>
                 </Router>
             </>
-           
+
 
         )
     }
