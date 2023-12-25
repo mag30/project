@@ -3,7 +3,7 @@ import { Button, Container, Navbar, NavbarBrand, NavbarCollapse, Nav, Form, Form
 import logo from './logo.png';
 
 import{BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
-import Home from '../Pages/Home';
+import Home from '../pages/Home';
 import Cards from '../pages/Cards';
 import Quiz from '../pages/Quiz';
 import Theory from '../pages/Theory';
