@@ -2,13 +2,11 @@ import React, { Component } from 'react'
 import { Button, Container, Navbar, NavbarBrand, NavbarCollapse, Nav, Form, FormControl } from 'react-bootstrap'
 import logo from './logo.png';
 
-import{BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+import{BrowserRouter as Router,Route,Link, NavLink} from "react-router-dom";
 import Reg from '../pages/Reg';
 import Cards from '../pages/Cards';
 import Quiz from '../pages/Quiz';
 import Theory from '../pages/Theory';
-
-
 
 export default class Header extends Component {
 
@@ -23,31 +21,28 @@ export default class Header extends Component {
                                 height="40"
                                 width="40"
                                 className="d-inline-block align-top"
-alt="Logo"
+                                alt="Logo"
                             />
-Привет,Наташка!
-
+                        </Navbar.Brand>
+                        <Navbar.Brand href="/" >
+                            Привет,Наташка!
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mr-auto">
-
+                            <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
-                                
                             </Nav>
 
-                                                    </Navbar.Collapse>
+                            <Nav>
+                                <Nav.Link href="/registration">
+                                    Регистрация
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+
                     </Container>
                 </Navbar>
-                 <Router>
-                <Routes>
-                        <Route path='/' element={<Reg/>}/>
-                    </Routes>
-                </Router>
             </>
-
-
         )
     }
-
 }
