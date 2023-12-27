@@ -7,13 +7,15 @@ import Reg from '../pages/Reg';
 import Cards from '../pages/Cards';
 import Quiz from '../pages/Quiz';
 import Theory from '../pages/Theory';
-
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Contacts from '../pages/Contacts';
 export default class Header extends Component {
 
     render() {
         return (
-            <>
-                <Navbar sticky ="top" collapseOnSelect expand="md" bg="dark" variant='dark'>
+            <div class="pb-4">
+                <Navbar sticky ="top" collapseOnSelect expand="md" bg="dark" variant='dark' >
                     <Container>
                         <Navbar.Brand href="/" >
                             <img
@@ -31,6 +33,9 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
+                                <Nav.Link href="/About">О нас</Nav.Link>
+                                <Nav.Link href="/Contacts">Контакты</Nav.Link>
+
                             </Nav>
 
                             <Nav>
@@ -42,7 +47,9 @@ export default class Header extends Component {
 
                     </Container>
                 </Navbar>
-            </>
+                
+
+            </div>
         )
     }
 }
