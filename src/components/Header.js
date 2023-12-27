@@ -3,10 +3,6 @@ import { Button, Container, Navbar, NavbarBrand, NavbarCollapse, Nav, Form, Form
 import logo from './logo.png';
 
 import{BrowserRouter as Router,Route,Link, NavLink} from "react-router-dom";
-import Reg from '../pages/Reg';
-import Cards from '../pages/Cards';
-import Quiz from '../pages/Quiz';
-import Theory from '../pages/Theory';
 
 export default class Header extends Component {
 
@@ -31,6 +27,7 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
+                                <Nav.Link href="/quiz">Виктарина</Nav.Link>
                             </Nav>
 
                             <Nav>

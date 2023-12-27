@@ -6,6 +6,7 @@ import Header from './components/Header';
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import Reg from "./pages/Reg";
 import Home from "./pages/Home";
+import Quiz from "./pages/Quiz/Quiz";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </div>
         <main>
           <Switch>
+              <Route path="/quiz">
+                  <Quiz/>
+              </Route>
               <Route path="/registration">
                   <Reg/>
               </Route>
