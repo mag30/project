@@ -10,6 +10,7 @@ import Theory from '../pages/Theory';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contacts from '../pages/Contacts';
+
 export default class Header extends Component {
 
     render() {
@@ -33,6 +34,7 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
+                                <Nav.Link href="/quiz">Виктарина</Nav.Link>
                                 <Nav.Link href="/About">О нас</Nav.Link>
                                 <Nav.Link href="/Contacts">Контакты</Nav.Link>
 
@@ -47,7 +49,7 @@ export default class Header extends Component {
 
                     </Container>
                 </Navbar>
-                
+
 
             </div>
         )

@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Contacts from './pages/Contacts';
 import About from './pages/About';
 import Login from './pages/Login';
+import Quiz from "./pages/Quiz/Quiz";
+
 function App() {
   return (
       <Router>
@@ -26,12 +28,16 @@ function App() {
             <Route path='/Contacts'>
               <Contacts/>
             </Route>
-            <Route path="/registration"> 
-              <Reg/>
-            </Route>
-            <Route path="/">  
-              <Home/>
-            </Route>
+              <Route path="/quiz">
+                  <Quiz/>
+              </Route>
+              <Route path="/registration">
+                  <Reg/>
+              </Route>
+
+              <Route path="/">
+                  <Home/>
+              </Route>
           </Switch>
         </main>
       </Router>
