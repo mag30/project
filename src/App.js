@@ -10,6 +10,8 @@ import Quiz from "./pages/Quiz";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import Cards from "./pages/Cards";
+import Theory from "./pages/Theory";
 
 function App() {
   return (
@@ -28,11 +30,18 @@ function App() {
               <Route path="/about">
                   <About/>
               </Route>
-              <Route path="/quiz">
-                  <Quiz/>
-              </Route>
+              
               <Route path="/registration">
                   <Reg/>
+              </Route>
+              <Route path="/Cards">
+                  <Cards/>
+              </Route>
+              <Route path="/Quiz">
+                  <Quiz/>
+              </Route>
+              <Route path="/Theory">
+                  <Theory/>
               </Route>
 
               <Route path="/">
