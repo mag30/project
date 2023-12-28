@@ -1,17 +1,17 @@
 import React, {Component} from 'react'
-import RegistrationForm from "../components/RegistrationForm";
+import LoginForm from "../components/LoginForm";
 import { Col, Container, Row } from 'react-bootstrap';
-export default class Reg extends Component{
+export default class Login extends Component{
     render(){
         return(
             <div>
                 <Container>
                     <Row>
                         <Col/>
-                            <Col>
-                                <RegistrationForm/>
-                            </Col>
                         <Col/>
+                        <Col>
+                                <LoginForm/>
+                        </Col>
                     </Row>
                </Container>
             </div>

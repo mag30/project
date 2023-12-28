@@ -6,6 +6,9 @@ import Header from './components/Header';
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import Reg from "./pages/Reg";
 import Home from "./pages/Home";
+import Contacts from './pages/Contacts';
+import About from './pages/About';
+import Login from './pages/Login';
 import Quiz from "./pages/Quiz/Quiz";
 
 function App() {
@@ -16,6 +19,15 @@ function App() {
         </div>
         <main>
           <Switch>
+            <Route path='/login'>
+              <Login/>
+            </Route>
+            <Route path='/About'>
+              <About/>
+            </Route>
+            <Route path='/Contacts'>
+              <Contacts/>
+            </Route>
               <Route path="/quiz">
                   <Quiz/>
               </Route>
