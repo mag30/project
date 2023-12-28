@@ -8,7 +8,7 @@ export default class Header extends Component {
 
     render() {
         return (
-            <>
+            <div class="pb-3">
                 <Navbar sticky ="top" collapseOnSelect expand="md" bg="dark" variant='dark'>
                     <Container>
                         <Navbar.Brand href="/" >
@@ -27,19 +27,23 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
-                                <Nav.Link href="/quiz">Виктарина</Nav.Link>
+                                <Nav.Link href="/contact">Контакты</Nav.Link>
+                                <Nav.Link href="/about">О нас</Nav.Link>
                             </Nav>
 
                             <Nav>
                                 <Nav.Link href="/registration">
                                     Регистрация
                                 </Nav.Link>
+                                <Nav.Link href="/login">
+                                    Войти
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
 
                     </Container>
                 </Navbar>
-            </>
+            </div>
         )
     }
 }
