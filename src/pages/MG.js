@@ -46,7 +46,7 @@ export default class MG extends Component {
 
                         </div>
                         <div class="col-10">
-                        <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Модульные глаголы</h1>
+                        <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Модальные глаголы</h1>
                             <p class="p"> Модальные глаголы <em>(modal verbs)</em> — это особая группа глаголов. Они обозначают возможность, вероятность, необходимость или способность совершить какое-то действие. Есть модальные глаголы, используя которые, вы можете рассказать об умениях человека <em>(can/could)</em>, запретить или приказать кому-либо что-то делать <em>(must)</em>, дать совет <em>(should)</em>.</p>
                             <p class="p">Рассмотрим несколько примеров модальных глаголов:</p>
                             <ul class="list-group">
