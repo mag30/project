@@ -12,6 +12,9 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Cards from "./pages/Cards";
 import Theory from "./pages/Theory";
+import MG from "./pages/MG";
+import PZ from "./pages/PZ";
+import SimpleForms from "./pages/SimpleForms";
 
 function App() {
   return (
@@ -43,7 +46,15 @@ function App() {
               <Route path="/Theory">
                   <Theory/>
               </Route>
-
+              <Route path="/Mg">
+                  <MG/>
+              </Route>
+              <Route path="/Pz">
+                  <PZ/>
+              </Route>
+              <Route path="/SimpleForms">
+                  <SimpleForms/>
+              </Route>
               <Route path="/">
                   <Home/>
               </Route>
