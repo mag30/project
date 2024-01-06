@@ -4,7 +4,7 @@ export default class About extends Component {
 
     render() {
         return (
-            <div class="about">
+            <div class="about m-4">
                <h1 class="text-uppercase font-weight-bold font-size m-4">О сайте</h1> 
                 <p class="text-uppercase font-weight-bold font-size m-4 ">Language.Guide является веб-сайтом для изучения иностранного языка, здесь Вы можете познакомиться с теорией, проверить себя и закрепить пройденный материал. Мы готовы общаться с клиентами 7 дней в неделю 24 часа в сутки.</p>
 
