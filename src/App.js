@@ -15,6 +15,8 @@ import Theory from "./pages/Theory";
 import MG from "./pages/MG";
 import PZ from "./pages/PZ";
 import SimpleForms from "./pages/SimpleForms";
+import Past from "./pages/Past";
+import Future from "./pages/Future";
 
 function App() {
   return (
@@ -54,6 +56,12 @@ function App() {
               </Route>
               <Route path="/SimpleForms">
                   <SimpleForms/>
+              </Route>
+              <Route path="/Past">
+                  <Past/>
+              </Route>
+              <Route path="/Future">
+                  <Future/>
               </Route>
               <Route path="/">
                   <Home/>

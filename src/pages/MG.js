@@ -27,10 +27,10 @@ export default class MG extends Component {
                                 <a href="/SimpleForms" class="list-group-item list-group-item-action py-2 ripple ">
                                 <i class="fas fa-chart-pie fa-fw me-3"></i><span>Present Forms</span>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action py-2 ripple"
+                            <a href="/Past" class="list-group-item list-group-item-action py-2 ripple"
                             ><i class="fas fa-chart-bar fa-fw me-3"></i><span>Past Forms</span></a
                             >
-                            <a href="#" class="list-group-item list-group-item-action py-2 ripple"
+                            <a href="/Future" class="list-group-item list-group-item-action py-2 ripple"
                             ><i class="fas fa-globe fa-fw me-3"></i><span>Future Forms</span></a
                             >
 
