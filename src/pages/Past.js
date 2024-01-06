@@ -49,7 +49,7 @@ export default class Past extends Component {
                         <div class="col-10">
                             <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Past Forms</h1>
                             <p class="p"> Времена группы <em>Past </em>в английском языке необходимы для описания действий, произошедших в прошлом. В статье разберем случаи и примеры использования <strong><em>Past Simple, Past Continuous, Past Perfect, Past Perfect Continuous </em></strong></p>
-                            <h2 class="text-center">Past Simple</h2>
+                            <h2 class="text-center m-2">Past Simple</h2>
                             <p class="p">Past Simple — самое простое из прошедших времен в английском языке. Давайте рассмотрим схему его образования.</p>
                             <p class="p">Утвердительное предложение:</p>
                             <p class="p"></p>
@@ -76,7 +76,7 @@ export default class Past extends Component {
 
                             
 
-                            <h2 class="text-center">Past Continuous </h2>
+                            <h2 class="text-center m-2">Past Continuous </h2>
                             <p class="p"><em>Past Continuous</em> — необходимо для описания длительных действий в прошлом. Давайте ознакомимся с правилами его образования.</p>
                             <ul class="list-group">
                                 <li class="list-group-item list-group-item-primary text-center">Продолжительное действие в определенный момент в прошлом.</li>
@@ -106,7 +106,7 @@ export default class Past extends Component {
 
 
 
-                            <h2 class="text-center">Past Perfect</h2>
+                            <h2 class="text-center m-2">Past Perfect</h2>
                             <p class="p">К временам группы Past также относят Past Perfect. Давайте разберем правила его образования.</p>
                            
                             <ul class="list-group">
@@ -136,7 +136,7 @@ export default class Past extends Component {
                             </ul>
 
                             
-                            <h2 class="text-center">Past Perfect Continuous </h2>
+                            <h2 class="text-center m-2">Past Perfect Continuous </h2>
                             <p class="p">Последнее время из группы <em>Past</em>, о котором мы поговорим — <em>Past Perfect Continuous</em>. Начнем с его образования. </p>
                             
                             <ul class="list-group">

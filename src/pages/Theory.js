@@ -56,17 +56,17 @@ export default class Home extends Component {
 
 
 
-                                <li class="list-group-item list-group-item-primary"><strong>неопределенный артикль</strong> <em>a/an</em> используется с исчисляемыми существительными в единственном числе;</li>
-                                <li class="list-group-item list-group-item-primary"><strong>определенный артикль</strong> <em>the</em> может использоваться с исчисляемыми существительными (независимо от их числа) и с неисчисляемыми существительными;</li>
-                                <li class="list-group-item list-group-item-primary"><strong>нулевой артикль</strong> употребляется с неисчисляемыми существительными или с исчисляемыми во множественном числе.</li>
+                                <li class="list-group-item list-group-item-primary text-center"><strong>неопределенный артикль</strong> <em>a/an</em> используется с исчисляемыми существительными в единственном числе;</li>
+                                <li class="list-group-item list-group-item-primary m-1 text-center"><strong>определенный артикль</strong> <em>the</em> может использоваться с исчисляемыми существительными (независимо от их числа) и с неисчисляемыми существительными;</li>
+                                <li class="list-group-item list-group-item-primary m-1 text-center"><strong>нулевой артикль</strong> употребляется с неисчисляемыми существительными или с исчисляемыми во множественном числе.</li>
 
                             </ul>
                             <p class="p">Примеры:</p>
                             <ul class="list-group">
 
                                 <li class="list-group-item list-group-item-success text-center"><em>I heard  <strong>a story</strong></em> (исчисляемое существительное в единственном числе). — Я услышал <strong>историю.</strong></li>
-                                <li class="list-group-item list-group-item-success text-center"><em>I liked <strong> the films</strong></em>  (исчисляемое существительное во множественном числе). — Мне понравились  <strong>фильмы.</strong></li>
-                                <li class="list-group-item list-group-item-success text-center"><em>It is good <strong>advice</strong></em> (неисчисляемое существительное). — Это хороший  <strong>совет.</strong></li>
+                                <li class="list-group-item list-group-item-success text-center m-1"><em>I liked <strong> the films</strong></em>  (исчисляемое существительное во множественном числе). — Мне понравились  <strong>фильмы.</strong></li>
+                                <li class="list-group-item list-group-item-success text-center m-1"><em>It is good <strong>advice</strong></em> (неисчисляемое существительное). — Это хороший  <strong>совет.</strong></li>
 
                             </ul>
                             <p class="p m-1">Если существительное употребляется с прилагательным, то артикль ставим перед прилагательным.</p>
@@ -75,7 +75,7 @@ export default class Home extends Component {
 
 
                                 <li class="list-group-item list-group-item-success text-center"><em>It is <strong>a hot day</strong></em>. — Сегодня  <strong>жаркий день</strong></li>
-                                <li class="list-group-item list-group-item-success text-center"><em>It is <strong>the hottest day</strong> of this week</em>. — Это    <strong>самый жаркий день</strong> на этой неделе.</li>
+                                <li class="list-group-item list-group-item-success text-center m-1"><em>It is <strong>the hottest day</strong> of this week</em>. — Это    <strong>самый жаркий день</strong> на этой неделе.</li>
 
                             </ul>
                             <p class="p"></p>

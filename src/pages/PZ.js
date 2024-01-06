@@ -66,7 +66,7 @@ export default class LG extends Component {
                             <ul class="list-group">
 
                                 <li class="list-group-item list-group-item-success text-center"><em>She <strong>asked</strong> her students to come earlier.</em> — Она <strong>попросила</strong> студентов прийти раньше. <em>(активный залог)</em></li>
-                                <li class="list-group-item list-group-item-success text-center"><em>The students <strong>were asked </strong>to come earlier.</em> — Студентов <em>попросили</em> прийти раньше. (пассивный залог)</li>
+                                <li class="list-group-item list-group-item-success text-center m-1"><em>The students <strong>were asked </strong>to come earlier.</em> — Студентов <em>попросили</em> прийти раньше. (пассивный залог)</li>
                             </ul>
                             <p class="p m-2"> Страдательный залог в английском языке образуется с помощью вспомогательного глагола to be и смыслового глагола в третьей форме. На месте подлежащего в утвердительных предложениях будет стоять человек или предмет, над которым будет производиться действие. Посмотрите на схеме ниже, как активный залог можно преобразовать в пассивный.</p>
                             <p class="text-center"><img src={passive_photo} alt="" class="rounded float-right"
