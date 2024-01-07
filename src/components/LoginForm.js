@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 
-const EntrenceForm = () => {
+const LoginForm = () => {
     const [userData, setUserData] = useState({
         email: '',
         password: '',
-        confirmPassword: ''
     });
 
     const handleChange = (e) => {
@@ -18,10 +17,9 @@ const EntrenceForm = () => {
     };
 
     return (
-        <Container >
-            <div class="mt-3">Присоединяйтесь к изучению языков вместе с нами!</div>
+        <Container>
             <Form onSubmit={handleSubmit}>
-                <Form.Group class="mt-5">
+                <Form.Group className="mb-3">
                     <Form.Label>Email адрес</Form.Label>
                     <Form.Control
                         type="email"
@@ -32,7 +30,7 @@ const EntrenceForm = () => {
                     />
                 </Form.Group>
 
-                <Form.Group >
+                <Form.Group className="mb-3">
                     <Form.Label>Пароль</Form.Label>
                     <Form.Control
                         type="password"
@@ -42,17 +40,13 @@ const EntrenceForm = () => {
                         onChange={handleChange}
                     />
                 </Form.Group>
-                <div class="mt-3">
-
-               
 
                 <Button variant="primary" type="submit">
                     Войти
                 </Button>
-                </div>
             </Form>
         </Container>
     );
 };
 
-export default EntrenceForm;
+export default LoginForm;
