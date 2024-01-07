@@ -35,6 +35,7 @@ export default class Header extends Component {
                                 <Nav.Link href="/">Главная страница</Nav.Link>
                                 <Nav.Link href="/About">О нас</Nav.Link>
                                 <Nav.Link href="/Contacts">Контакты</Nav.Link>
+                                <Nav.Link href="/Quiz">Квиз</Nav.Link>
 
                             </Nav>
 

@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Contacts from './pages/Contacts';
 import About from './pages/About';
 import Login from './pages/Login';
+import Quiz from './pages/Quiz';
 function App() {
   return (
       <Router>
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/registration"> 
               <Reg/>
+            </Route>
+            <Route path="/Quiz"> 
+              <Quiz/>
             </Route>
             <Route path="/">  
               <Home/>

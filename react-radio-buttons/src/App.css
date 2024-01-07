@@ -2,17 +2,9 @@
   text-align: center;
 }
 
-.App1 {
-  text-align: left;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-.container{
-  font-family: "Times New Roman";
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,11 +26,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-
-.nobullet {
-  list-style-type: none;
 }
 
 @keyframes App-logo-spin {
