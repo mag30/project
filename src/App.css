@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App1 {
+  text-align: left;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,6 +37,11 @@
   color: #61dafb;
 }
 
+
+.nobullet {
+  list-style-type: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,6 +54,10 @@
 .p{
   font-size: 20px;
   
+}
+
+.p-big{
+  font-size: 50px;
 }
 .about{
   background: linear-gradient(to top left, rgb(206, 210, 211), rgb(255, 255, 255));

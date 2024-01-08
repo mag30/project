@@ -13,10 +13,16 @@ import Login from "./pages/Login";
 import Cards from "./pages/Cards";
 import Theory from "./pages/Theory";
 import MG from "./pages/MG";
+import PrMG from "./pages/PrMG";
 import PZ from "./pages/PZ";
+import PrPZ from "./pages/PrPZ";
 import SimpleForms from "./pages/SimpleForms";
+import PrSimpleForms from "./pages/PrSimpleForms";
 import Past from "./pages/Past";
+import PrPast from "./pages/PrPast";
 import Future from "./pages/Future";
+import PrFuture from "./pages/PrFuture";
+
 
 function App() {
   return (
@@ -35,7 +41,7 @@ function App() {
               <Route path="/about">
                   <About/>
               </Route>
-              
+
               <Route path="/registration">
                   <Reg/>
               </Route>
@@ -54,14 +60,29 @@ function App() {
               <Route path="/Pz">
                   <PZ/>
               </Route>
+              <Route path="/PrPz">
+                  <PrPZ/>
+              </Route>
               <Route path="/SimpleForms">
                   <SimpleForms/>
+              </Route>
+              <Route path="/PrSimpleForms">
+                  <PrSimpleForms/>
               </Route>
               <Route path="/Past">
                   <Past/>
               </Route>
+              <Route path="/PrPast">
+                  <PrPast/>
+              </Route>
               <Route path="/Future">
                   <Future/>
+              </Route>
+              <Route path="/PrFuture">
+                  <PrFuture/>
+              </Route>
+              <Route path="/PrMG">
+                  <PrMG/>
               </Route>
               <Route path="/">
                   <Home/>
