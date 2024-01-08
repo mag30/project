@@ -19,7 +19,7 @@ const RegistrationForm = () => {
 
     return (
         <Container>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit} className='about p-3'>
                 <Form.Group className="mb-3">
                     <Form.Label>Email адрес</Form.Label>
                     <Form.Control

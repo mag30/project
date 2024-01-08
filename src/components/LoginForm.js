@@ -18,7 +18,7 @@ const LoginForm = () => {
 
     return (
         <Container>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit} className='about p-3 rounded-2'>
                 <Form.Group className="mb-3">
                     <Form.Label>Email адрес</Form.Label>
                     <Form.Control

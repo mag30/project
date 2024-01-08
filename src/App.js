@@ -88,7 +88,7 @@ function App() {
                   <Home/>
               </Route>
           </Switch>
-        </main>
+        </main >
       </Router>
   );
 }

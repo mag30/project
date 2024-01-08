@@ -11,6 +11,15 @@ export  default function Cards(){
         const words = [
             { englishWord: 'Hello', translation: 'Привет' },
             { englishWord: 'Goodbye', translation: 'До свидания' },
+            { englishWord: 'Cat', translation: 'Кошка' },
+            { englishWord: 'Dog', translation: 'Собака' },
+            { englishWord: 'Rabbit', translation: 'Кролик' },
+            { englishWord: 'Ice cream', translation: 'Мороженое' },
+            { englishWord: 'Bear', translation: 'Медведь' },
+            { englishWord: 'Beer', translation: 'Пиво' },
+            { englishWord: 'Desert', translation: 'Пустыня' },
+            { englishWord: 'Dessert', translation: 'Десерт' }
+        
         ];
 
         let incIndex = () =>{
@@ -29,7 +38,9 @@ export  default function Cards(){
                 <Container>
                     <Row>
                         <Col>
-                            <Image src={r_left} fluid onClick={decIndex}/>
+                            {index != 0 &&
+                                <Image src={r_left} fluid onClick={decIndex}/>
+                            }
                         </Col>
                         <Col sm={7}>
                             <EnglishCard
@@ -39,7 +50,9 @@ export  default function Cards(){
                             />
                         </Col>
                         <Col>
+                            {index < words.length-1 &&
                             <Image src={r_rigth} fluid onClick={incIndex}/>
+                            }
                         </Col>
                     </Row>
                 </Container>
