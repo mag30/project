@@ -21,15 +21,13 @@ export default class Header extends Component {
                             />
                         </Navbar.Brand>
                         <Navbar.Brand href="/" >
-                            Привет,Наташка!
+                            LANGUAGE.GUIDE
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
                                 <Nav.Link href="/About">О нас</Nav.Link>
-                                <Nav.Link href="/Contacts">Контакты</Nav.Link>
-                                
 
                             </Nav>
 
