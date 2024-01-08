@@ -10,33 +10,31 @@ export default class PrSimpleForms extends Component {
         return (
            
            <div>
-            <header>
+                           <header>
 
-
-<nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-muted active">
+<nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-dark">
     <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4 ">
             <a
-                href="/Quiz" class="list-group-item list-group-item-action py-2 ripple"
+                href="/Quiz" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark"
 
             >
-                <i class="fas fa-tachometer-alt fa-fw me-3 "></i><span>Артикль</span>
+                <i class="fas fa-tachometer-alt fa-fw me-3 mx-auto "></i><span>Артикль</span>
             </a>
-            <a href="/PrMG" class="list-group-item list-group-item-action py-2 ripple  " >
+            <a href="/PrMG" class=" b list-group-item list-group-item-action py-2 ripple text-light bg-dark " >
                 <i class="fas fa-chart-area fa-fw me-3 "></i><span>Модальные глаголы</span>
             </a>
 
-            <a href="/PrPZ" class="list-group-item list-group-item-action py-2 ripple"
+            <a href="/PrPZ" class="b list-group-item list-group-item-action py-2 ripple text-light bg-dark "
             ><i class="fas fa-chart-line fa-fw me-3"></i><span>Пассивный залог</span></a
             >
-           
             <a href="/PrSimpleForms" class="list-group-item list-group-item-action py-2 ripple active">
             <i class="fas fa-chart-pie fa-fw me-3"></i><span>Present Forms</span>
         </a>
-        <a href="/PrPast" class="list-group-item list-group-item-action py-2 ripple"
+        <a href="/PrPast" class="b list-group-item list-group-item-action py-2 ripple text-light bg-dark "
         ><i class="fas fa-chart-bar fa-fw me-3"></i><span>Past Forms</span></a
         >
-        <a href="/PrFuture" class="list-group-item list-group-item-action py-2 ripple"
+        <a href="/PrFuture" class="b list-group-item list-group-item-action py-2 ripple text-light bg-dark  "
         ><i class="fas fa-globe fa-fw me-3"></i><span>Future Forms</span></a
         >
 
