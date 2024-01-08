@@ -7,11 +7,11 @@ export default class MG extends Component {
             <div>
                 <header>
 
-                    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-muted">
+                    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-dark">
                         <div class="position-sticky">
                             <div class="list-group list-group-flush mx-3 mt-4 ">
                                 <a
-                                    href="/Theory" class="list-group-item list-group-item-action py-2 ripple "
+                                    href="/Theory" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark  "
 
                                 >
                                     <i class="fas fa-tachometer-alt fa-fw me-3 "></i><span>Артикль</span>
@@ -20,17 +20,17 @@ export default class MG extends Component {
                                     <i class="fas fa-chart-area fa-fw me-3 "></i><span>Модальные глаголы</span>
                                 </a>
 
-                                <a href="/PZ" class="list-group-item list-group-item-action py-2 ripple"
+                                <a href="/PZ" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark "
                                 ><i class="fas fa-chart-line fa-fw me-3"></i><span>Пассивный залог</span></a
                                 >
                                
-                                <a href="/SimpleForms" class="list-group-item list-group-item-action py-2 ripple ">
+                                <a href="/SimpleForms" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark  ">
                                 <i class="fas fa-chart-pie fa-fw me-3"></i><span>Present Forms</span>
                             </a>
-                            <a href="/Past" class="list-group-item list-group-item-action py-2 ripple"
+                            <a href="/Past" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark "
                             ><i class="fas fa-chart-bar fa-fw me-3"></i><span>Past Forms</span></a
                             >
-                            <a href="/Future" class="list-group-item list-group-item-action py-2 ripple"
+                            <a href="/Future" class="list-group-item list-group-item-action py-2 ripple text-light bg-dark "
                             ><i class="fas fa-globe fa-fw me-3"></i><span>Future Forms</span></a
                             >
 
