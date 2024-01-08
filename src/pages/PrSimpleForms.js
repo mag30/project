@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap';
 
 import Test from '../components/Test'
-export default class Quiz extends Component {
+export default class PrSimpleForms extends Component {
 
 
     render() {
@@ -17,7 +17,7 @@ export default class Quiz extends Component {
     <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4 ">
             <a
-                href="/Quiz" class="list-group-item list-group-item-action py-2 ripple active"
+                href="/Quiz" class="list-group-item list-group-item-action py-2 ripple"
 
             >
                 <i class="fas fa-tachometer-alt fa-fw me-3 "></i><span>Артикль</span>
@@ -30,7 +30,7 @@ export default class Quiz extends Component {
             ><i class="fas fa-chart-line fa-fw me-3"></i><span>Пассивный залог</span></a
             >
            
-            <a href="/PrSimpleForms" class="list-group-item list-group-item-action py-2 ripple ">
+            <a href="/PrSimpleForms" class="list-group-item list-group-item-action py-2 ripple active">
             <i class="fas fa-chart-pie fa-fw me-3"></i><span>Present Forms</span>
         </a>
         <a href="/PrPast" class="list-group-item list-group-item-action py-2 ripple"
@@ -49,17 +49,17 @@ export default class Quiz extends Component {
 <div class="row">
                     <div class="col"></div>
 <div class="col-10">
-    <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Артикль</h1>
+    <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Present Forms</h1>
         
-            < Test name="Задание № 1" question="Выберете предложение, в котором артикль употреблен верно" label1="My aunt and my uncle are teachers." label2="There is a cheese on the plate." label3="Next to the window there is door."
+    < Test name="Задание № 1" question="Выберете верное предложение предложение" label1="He never talks to strangers." label2="Mike has playing football since morning." label3="We have been living in Berlin for 10 years."
                 />
-                < Test name="Задание № 2" question="Выберете правильный артикль для предложения: I need ... answer." label1="an" label2="the" label3="-"
+                < Test name="Задание № 2" question="Выберете правильный глагол для предложения: They (not be) to Argentina yet." label1="are" label2="was" label3="haven't been"
                 />
-                < Test name="Задание № 3" question="Выберете правильный артикль для предложения: ... capital of the USA is Washington." label1="A" label2="The" label3="-"
+                < Test name="Задание № 3" question="Выберете правильный глагол для предложения: Jane always (do) yoga at sunrise." label1="does" label2="do" label3="did"
                 />
-                < Test name="Задание № 4" question="Выберете предложение, в котором артикль употреблен неверно"  label1="There is a lamp on the desk." label2="We don't go to school on the Sunday." label3="After breakfast I go to school."
+                < Test name="Задание № 4" question="Выберете неправильное предложение"  label1="Alice lived in Italy since 2010." label2="She goes to the gym on Mondays." label3="They haven't flown by plane before."
                 />
-                < Test name="Задание № 5" question="Выберете предложение, в котором не требуется артикль" label1="... dinosaurs lived long ago." label2="I have got ... nice plan." label3="She has ... new phone."
+                < Test name="Задание № 5" question="Выберете подходящий указатель времени для предложения: I'm busy. I'm studying for the exam ... " label1="yet" label2="at the moment" label3="usually"
                 />
 </div>
 </div>
