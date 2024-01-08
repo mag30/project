@@ -27,8 +27,10 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Главная страница</Nav.Link>
-                                <Nav.Link href="/contact">Контакты</Nav.Link>
-                                <Nav.Link href="/about">О нас</Nav.Link>
+                                <Nav.Link href="/About">О нас</Nav.Link>
+                                <Nav.Link href="/Contacts">Контакты</Nav.Link>
+                                <Nav.Link href="/Quiz">Квиз</Nav.Link>
+
                             </Nav>
 
                             <Nav>

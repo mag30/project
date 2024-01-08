@@ -10,6 +10,13 @@ import Quiz from "./pages/Quiz";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import Cards from "./pages/Cards";
+import Theory from "./pages/Theory";
+import MG from "./pages/MG";
+import PZ from "./pages/PZ";
+import SimpleForms from "./pages/SimpleForms";
+import Past from "./pages/Past";
+import Future from "./pages/Future";
 
 function App() {
   return (
@@ -28,13 +35,34 @@ function App() {
               <Route path="/about">
                   <About/>
               </Route>
-              <Route path="/quiz">
-                  <Quiz/>
-              </Route>
+
               <Route path="/registration">
                   <Reg/>
               </Route>
-
+              <Route path="/Cards">
+                  <Cards/>
+              </Route>
+              <Route path="/Quiz">
+                  <Quiz/>
+              </Route>
+              <Route path="/Theory">
+                  <Theory/>
+              </Route>
+              <Route path="/Mg">
+                  <MG/>
+              </Route>
+              <Route path="/Pz">
+                  <PZ/>
+              </Route>
+              <Route path="/SimpleForms">
+                  <SimpleForms/>
+              </Route>
+              <Route path="/Past">
+                  <Past/>
+              </Route>
+              <Route path="/Future">
+                  <Future/>
+              </Route>
               <Route path="/">
                   <Home/>
               </Route>
