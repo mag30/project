@@ -49,15 +49,15 @@ export default class PrSimpleForms extends Component {
 <div class="col-10">
     <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Present Forms</h1>
         
-    < Test name="Задание № 1" question="Выберете верное предложение предложение" label1="He never talks to strangers." label2="Mike has playing football since morning." label3="We have been living in Berlin for 10 years."
+    < Test name="Задание № 1" question="Выберите верное предложение предложение" label1="He never talks to strangers." label2="Mike has playing football since morning." label3="We have been living in Berlin for 10 years."
                 />
-                < Test name="Задание № 2" question="Выберете правильный глагол для предложения: They (not be) to Argentina yet." label1="are" label2="was" label3="haven't been"
+                < Test name="Задание № 2" question="Выберите правильный глагол для предложения: They (not be) to Argentina yet." label1="are" label2="was" label3="haven't been"
                 />
-                < Test name="Задание № 3" question="Выберете правильный глагол для предложения: Jane always (do) yoga at sunrise." label1="does" label2="do" label3="did"
+                < Test name="Задание № 3" question="Выберите правильный глагол для предложения: Jane always (do) yoga at sunrise." label1="does" label2="do" label3="did"
                 />
-                < Test name="Задание № 4" question="Выберете неправильное предложение"  label1="Alice lived in Italy since 2010." label2="She goes to the gym on Mondays." label3="They haven't flown by plane before."
+                < Test name="Задание № 4" question="Выберите неправильное предложение"  label1="Alice lived in Italy since 2010." label2="She goes to the gym on Mondays." label3="They haven't flown by plane before."
                 />
-                < Test name="Задание № 5" question="Выберете подходящий указатель времени для предложения: I'm busy. I'm studying for the exam ... " label1="yet" label2="at the moment" label3="usually"
+                < Test name="Задание № 5" question="Выберите подходящий указатель времени для предложения: I'm busy. I'm studying for the exam ... " label1="yet" label2="at the moment" label3="usually"
                 />
 </div>
 </div>

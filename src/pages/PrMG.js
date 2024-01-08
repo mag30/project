@@ -49,15 +49,15 @@ export default class PrMG extends Component {
 <div class="col-10">
     <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Модальные глаголы</h1>
         
-            < Test name="Задание № 1" question="Выберете предложение, в котором глагол употреблен верно" label1="Can you see anything in this dark room?" label2="You mustn’t buy mineral water, we have plenty." label3="We needn’t stay up late."
+            < Test name="Задание № 1" question="Выберите предложение, в котором глагол употреблен верно" label1="Can you see anything in this dark room?" label2="You mustn’t buy mineral water, we have plenty." label3="We needn’t stay up late."
                 />
-                < Test name="Задание № 2" question="Выберете правильный глагол для предложения: You ... not smoke here." label1="must" label2="may" label3="can"
+                < Test name="Задание № 2" question="Выберите правильный глагол для предложения: You ... not smoke here." label1="must" label2="may" label3="can"
                 />
-                < Test name="Задание № 3" question="Выберете правильный глагол для предложения: It ... rain soon." label1="must" label2="may" label3="need"
+                < Test name="Задание № 3" question="Выберите правильный глагол для предложения: It ... rain soon." label1="must" label2="may" label3="need"
                 />
-                < Test name="Задание № 4" question="Выберете предложение, в котором глагол употреблен неверно"  label1="Sonia must practise so much if she wants to take part in the marathon." label2="If you want to improve your English, you need work very hard." label3="You need not come to help them tomorrow: the work is done."
+                < Test name="Задание № 4" question="Выберите предложение, в котором глагол употреблен неверно"  label1="Sonia must practise so much if she wants to take part in the marathon." label2="If you want to improve your English, you need work very hard." label3="You need not come to help them tomorrow: the work is done."
                 />
-                < Test name="Задание № 5" question="Выберете предложение, в котором подходящий модальный глагол 'may'" label1="I’m not sure but perhaps Roberto ... leave for Australia soon." label2="You ... talk to your daughter about her future." label3="You ... have a visa to travel to some countries."
+                < Test name="Задание № 5" question="Выберите предложение, в котором подходящий модальный глагол 'may'" label1="I’m not sure but perhaps Roberto ... leave for Australia soon." label2="You ... talk to your daughter about her future." label3="You ... have a visa to travel to some countries."
                 />
 </div>
 </div>

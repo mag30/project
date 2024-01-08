@@ -49,15 +49,15 @@ export default class PrPast extends Component {
 <div class="col-10">
     <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Past Forms</h1>
         
-            < Test name="Задание № 1" question="Выберете верное предложение" label1="She forgot everything she studied at a driving school." label2="First I had taken off my coat, then I went to the bathroom." label3="Kim was dancing when her husband opened the door."
+            < Test name="Задание № 1" question="Выберите верное предложение" label1="She forgot everything she studied at a driving school." label2="First I had taken off my coat, then I went to the bathroom." label3="Kim was dancing when her husband opened the door."
                 />
-                < Test name="Задание № 2" question="Выберете правильный глагол для предложения: I ... volleyball when the ball hit my head." label1="was playing" label2="played" label3="had played"
+                < Test name="Задание № 2" question="Выберите правильный глагол для предложения: I ... volleyball when the ball hit my head." label1="was playing" label2="played" label3="had played"
                 />
-                < Test name="Задание № 3" question="Выберете правильный глагол для предложения: His clothes were smudgy because he  painting the walls." label1="finished" label2="had finished" label3="was finished"
+                < Test name="Задание № 3" question="Выберите правильный глагол для предложения: His clothes were smudgy because he  painting the walls." label1="finished" label2="had finished" label3="was finished"
                 />
-                < Test name="Задание № 4" question="Выберете предложение, в котором глагол употреблен неверно"  label1="She looked tired. She had been planting flowers all morning." label2="His clothes were smudgy because he had finished painting the walls." label3="When I was five my parents were buying a piano for me."
+                < Test name="Задание № 4" question="Выберите предложение, в котором глагол употреблен неверно"  label1="She looked tired. She had been planting flowers all morning." label2="His clothes were smudgy because he had finished painting the walls." label3="When I was five my parents were buying a piano for me."
                 />
-                < Test name="Задание № 5" question="Выберете правильный глагол для предложения: He ... the grass for an hour when suddenly the lawn-mower broke down." label1="cut" label2="was cutting" label3="had been cutting"
+                < Test name="Задание № 5" question="Выберите правильный глагол для предложения: He ... the grass for an hour when suddenly the lawn-mower broke down." label1="cut" label2="was cutting" label3="had been cutting"
                 />
 </div>
 </div>

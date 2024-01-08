@@ -49,15 +49,15 @@ export default class PrFuture extends Component {
 <div class="col-10">
     <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Future Forms</h1>
         
-            < Test name="Задание № 1" question="Выберете предложение, в котором глагол употреблен верно" label1="By the time Teddy comes home Pamela will eat all the apple jam." label2="It’s still not clear if the weather will have change for the better." label3="When Sandra enters a Design College she will have been studying Drawing for 5 years there."
+            < Test name="Задание № 1" question="Выберите предложение, в котором глагол употреблен верно" label1="By the time Teddy comes home Pamela will eat all the apple jam." label2="It’s still not clear if the weather will have change for the better." label3="When Sandra enters a Design College she will have been studying Drawing for 5 years there."
                 />
-                < Test name="Задание № 2" question="Выберете правильный глагол для предложения: We ... to lake Baikal in 2 months." label1="will travel" label2="will have travelled" label3="will have been travelling"
+                < Test name="Задание № 2" question="Выберите правильный глагол для предложения: We ... to lake Baikal in 2 months." label1="will travel" label2="will have travelled" label3="will have been travelling"
                 />
-                < Test name="Задание № 3" question="Выберете правильный глагол для предложения: She ... tennis tomorrow afternoon." label1="will be playing" label2="will have played" label3="will have been playing"
+                < Test name="Задание № 3" question="Выберите правильный глагол для предложения: She ... tennis tomorrow afternoon." label1="will be playing" label2="will have played" label3="will have been playing"
                 />
-                < Test name="Задание № 4" question="Выберете предложение, в котором глагол употреблен неверно"  label1="My dear granny will have become a pensioner by 2018." label2="When you come to the station I will wait for you by the central entrance." label3="By the time he returns, we will have been starving here for 3 days!"
+                < Test name="Задание № 4" question="Выберите предложение, в котором глагол употреблен неверно"  label1="My dear granny will have become a pensioner by 2018." label2="When you come to the station I will wait for you by the central entrance." label3="By the time he returns, we will have been starving here for 3 days!"
                 />
-                < Test name="Задание № 5" question="Выберете правильный глагол для предложения: We ... to lake Baikal in 2 months." label1="will travel" label2="will have travelled" label3="will have been travelling"
+                < Test name="Задание № 5" question="Выберите правильный глагол для предложения: We ... to lake Baikal in 2 months." label1="will travel" label2="will have travelled" label3="will have been travelling"
                 />
 </div>
 </div>

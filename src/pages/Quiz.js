@@ -49,15 +49,15 @@ export default class Quiz extends Component {
 <div class="col-10">
     <h1 class="text-uppercase font-weight-bold font-size 100px  m-4 text-center">Артикль</h1>
         
-            < Test name="Задание № 1" question="Выберете предложение, в котором артикль употреблен верно" label1="My aunt and my uncle are teachers." label2="There is a cheese on the plate." label3="Next to the window there is door."
+            < Test name="Задание № 1" question="Выберите предложение, в котором артикль употреблен верно" label1="My aunt and my uncle are teachers." label2="There is a cheese on the plate." label3="Next to the window there is door."
                 />
-                < Test name="Задание № 2" question="Выберете правильный артикль для предложения: I need ... answer." label1="an" label2="the" label3="-"
+                < Test name="Задание № 2" question="Выберите правильный артикль для предложения: I need ... answer." label1="an" label2="the" label3="-"
                 />
-                < Test name="Задание № 3" question="Выберете правильный артикль для предложения: ... capital of the USA is Washington." label1="A" label2="The" label3="-"
+                < Test name="Задание № 3" question="Выберите правильный артикль для предложения: ... capital of the USA is Washington." label1="A" label2="The" label3="-"
                 />
-                < Test name="Задание № 4" question="Выберете предложение, в котором артикль употреблен неверно"  label1="There is a lamp on the desk." label2="We don't go to school on the Sunday." label3="After breakfast I go to school."
+                < Test name="Задание № 4" question="Выберите предложение, в котором артикль употреблен неверно"  label1="There is a lamp on the desk." label2="We don't go to school on the Sunday." label3="After breakfast I go to school."
                 />
-                < Test name="Задание № 5" question="Выберете предложение, в котором не требуется артикль" label1="... dinosaurs lived long ago." label2="I have got ... nice plan." label3="She has ... new phone."
+                < Test name="Задание № 5" question="Выберите предложение, в котором не требуется артикль" label1="... dinosaurs lived long ago." label2="I have got ... nice plan." label3="She has ... new phone."
                 />
 </div>
 </div>
